@@ -599,6 +599,7 @@ struct LangRegEx {
 
 impl LangRegEx {
     fn new(lang: Lang) -> Self {
+        // Note: (?i) is for case insensitive.
         match lang {
             Lang::PT => {
                     // PT regular expressions pre-compilation.
