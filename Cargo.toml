@@ -1,0 +1,11 @@
+[package]
+name = "hunspell"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+regex = "1.5.4"
+unicode-normalization = "0.1.19"
+hunspell-rs = "0.3.0"
